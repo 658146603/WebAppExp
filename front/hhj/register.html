@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>注册页面</title>
+    <style>
+        .border {
+            height: 350px;
+            width: 250px;
+            border: 1px solid #6495ED;
+        }
+
+        .title {
+            color: #6495ED;
+            text-align: center;
+        }
+
+        .regi {
+            height: 30px;
+            background-color: #6495ED;
+            text-align: -webkit-center;
+            color: #FFFFFF;
+        }
+
+        .btn-center {
+            height: 30px;
+            width: 250px;
+            background-color: #6495ED;
+            color: #FFFFFF;
+            font-size: 15px;
+        }
+    </style>
+    <script type="text/javascript">
+        function checkInfo() {
+            var Name = document.getElementById("Name");
+            var userName = document.getElementById("userName");
+            var password = document.getElementById("password");
+            var email = document.getElementById("email")
+            var phoneNumber = document.getElementById("phoneNumber")
+            var testPassword = /^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9]).{8,16}$/;
+            if (userName.value === "") {
+                alert("用户名不能为空！");
+                return false;
+            } else if (password.value === "") {
+                alert("密码不能为空！");
+                return false;
+            } else if (Name.value === "") {
+                alert("姓名不能为空！");
+                return false;
+            } else if (email.value === "") {
+                alert("邮箱不能为空！");
+                return false;
+            } else if (phoneNumber.value === "" || phoneNumber.value.length !== 11) {
+                alert("手机号不能为空！");
+                return false;
+            } else if (testPassword.test(password.value) === false) {
+                alert("密码不符合要求！")
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="border">
+    <form action="register.do" method="post" onsubmit="return checkInfo()">
+        <div class="title"><h2>用户注册</h2></div>
+        <div>
+            <p>
+                <label>用户名：<input type="text" id="userName" name="userName"/></label>
+            </p>
+        </div>
+
+        <p>
+            <label>密码：<input type="password" id="password" name="password"/></label>
+        </p>
+        <p>
+            <label>姓名：<input type="text" id="Name" name="Name"/></label>
+        </p>
+        <p>
+            <label>性别：<input type="radio" name="sex"/>男
+                <input type="radio" name="sex"/>女
+            </label>
+        </p>
+        <p>
+            <label>邮箱：<input id="email" type="text" name="email"/></label>
+        </p>
+        <p>
+            <label>手机号：<input id="phoneNumber" type="text" name="phoneNumber"/></label>
+        </p>
+        <div class="btn-center">
+            <button type="submit" class="btn-center">立即登录</button>
+        </div>
+
+    </form>
+</div>
+</body>
+</html>

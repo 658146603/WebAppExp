@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+</head>
+<style type="text/css">
+    td, th, table {
+        border: 1px solid #f0eee0;
+    }
+    .text {
+        color: red;
+        background-color: lightblue;
+        border-right: none;
+        border-bottom: none;
+    }
+    a:link {color: blue}
+    a:visited {color: gray}
+    a:hover {color: red}
+    a:active {color: black}
+</style>
+<script type="text/javascript">
+    function submit_form() {
+        console.log("submit");
+        let username = document.getElementById("username").value;
+        if (username.length < 6) {
+            alert("用户名不能少于6位");
+            return false;
+        }
+        let password = document.getElementById("password").value;
+        let confirm_password = document.getElementById("confirm").value;
+        if (password === "") {
+            alert("密码不能为空");
+            return false;
+        }
+        if (password !== confirm_password) {
+            alert("密码和校验密码不一致");
+            return false;
+        }
+        let ch0 = document.getElementById("basketball").checked;
+        let ch1 = document.getElementById("football").checked;
+        let ch2 = document.getElementById("writing").checked;
+        let ch3 = document.getElementById("music").checked;
+        let ch4 = document.getElementById("drawing").checked;
+        let ch5 = document.getElementById("beating").checked;
+        let ch6 = document.getElementById("yoga").checked;
+        let ch7 = document.getElementById("other").checked;
+        if (!(ch0 || ch1 || ch2 || ch3 || ch4 || ch5 || ch6 || ch7)) {
+            alert("兴趣不能为空");
+            return false;
+        }
+        return true;
+    }
+</script>
+<body>
+<div align="center">
+    <form method="post" action="show_info" onsubmit="return submit_form();">
+        <table cellspacing="0">
+            <tr>
+                <th colspan="5">用户注册信息</th>
+            </tr>
+            <tr>
+                <td>用户名</td>
+                <td colspan="4"><input id="username" class="text" type="text" maxlength="16" name="username"></td>
+            </tr>
+            <tr>
+                <td>密码</td>
+                <td colspan="4"><input id="password" class="text" type="password" maxlength="16" name="password"></td>
+            </tr>
+            <tr>
+                <td>校验密码</td>
+                <td colspan="4"><input id="confirm" class="text" type="password" maxlength="16" name="confirm"></td>
+            </tr>
+            <tr>
+                <td>籍贯</td>
+                <td colspan="4">
+                    <select name="place">
+                        <option value="zj">浙江</option>
+                        <option value="js">江苏</option>
+                        <option value="bj">北京</option>
+                        <option value="sh">上海</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="1">兴趣爱好</td>
+                <td colspan="4">
+                    <label><input type="checkbox" id="basketball" name="interest" value="basketball">篮球</label>
+                    <label><input type="checkbox" id="football" name="interest" value="football">足球</label>
+                    <label><input type="checkbox" id="writing" name="interest" value="writing">书法</label>
+                    <label><input type="checkbox" id="music" name="interest" value="music">音乐</label>
+                    <br>
+                    <label><input type="checkbox" id="drawing" name="interest" value="drawing">绘画</label>
+                    <label><input type="checkbox" id="beating" name="interest" value="beating">散打</label>
+                    <label><input type="checkbox" id="yoga" name="interest" value="yoga">瑜伽</label>
+                    <label><input type="checkbox" id="other" name="interest" value="other">其他</label>
+                </td>
+            </tr>
+            <tr>
+                <td>政治面貌</td>
+                <td colspan="4">
+                    <label><input name="zz" value="party" type="radio">党员</label>
+                    <label><input name="zz" value="league" type="radio">团员</label>
+                    <label><input name="zz" value="group" type="radio">群众</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" align="center">
+                    <input type="submit">
+                    <input type="reset">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" align="center">
+                    <a href="help.html">注册帮助信息请点击这里</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+</head>
+<style type="text/css">
+    td, th, table {
+        border: 1px solid #f0eee0;
+    }
+    .text {
+        color: red;
+        background-color: lightblue;
+    }
+    a:link {color: blue}
+    a:visited {color: gray}
+    a:hover {color: red}
+    a:active {color: black}
+</style>
+<body>
+<div align="center">
+    <form method="post" action="reg_check.jsp">
+        <table cellspacing="0">
+            <tr>
+                <th colspan="5">用户注册信息</th>
+            </tr>
+            <tr>
+                <td>用户名</td>
+                <td colspan="4"><input class="text" type="text" maxlength="16" name="username"></td>
+            </tr>
+            <tr>
+                <td>密码</td>
+                <td colspan="4"><input class="text" type="password" maxlength="16" name="password"></td>
+            </tr>
+            <tr>
+                <td>校验密码</td>
+                <td colspan="4"><input class="text" type="password" maxlength="16" name="confirm"></td>
+            </tr>
+            <tr>
+                <td>籍贯</td>
+                <td colspan="4">
+                    <select>
+                        <option value="zj">浙江</option>
+                        <option value="js">江苏</option>
+                        <option value="bj">北京</option>
+                        <option value="sh">上海</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="1">兴趣爱好</td>
+                <td colspan="4">
+                    <label><input type="checkbox" name="basketball">篮球</label>
+                    <label><input type="checkbox" name="football">足球</label>
+                    <label><input type="checkbox" name="writing">书法</label>
+                    <label><input type="checkbox" name="music">音乐</label>
+                    <br>
+                    <label><input type="checkbox" name="drawing">绘画</label>
+                    <label><input type="checkbox" name="beating">散打</label>
+                    <label><input type="checkbox" name="yoga">瑜伽</label>
+                    <label><input type="checkbox" name="other">其他</label>
+                </td>
+            </tr>
+            <tr>
+                <td>政治面貌</td>
+                <td colspan="4">
+                    <label><input name="zz" type="radio">党员</label>
+                    <label><input name="zz" type="radio">团员 </label>
+                    <label><input name="zz" type="radio">群众</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" align="center">
+                    <input type="submit">
+                    <input type="reset">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" align="center">
+                    <a href="help.html">注册帮助信息请点击这里</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>

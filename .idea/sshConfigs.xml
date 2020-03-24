@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="wcf.huhaorui.com" id="2f4e858b-099e-4f6c-aeb8-5d5882b51f37" port="22" username="root" />
+    </configs>
+  </component>
+</project>

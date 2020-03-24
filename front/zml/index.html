@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>51job的企业会员登录界面</title>
+</head>
+<body>
+<form action="welcome.html" method="post" onsubmit="return custcheck()">
+    <table style="border: 1px solid #0000FF" rules="none" cellspacing="0" align="center" width=340>
+        <tr height=40>
+            <td colspan=2>
+                <h2 align="center">
+                    <span style="color: blue; ">
+                        企业会员登录
+                    </span>
+                </h2>
+            </td>
+        </tr>
+        <tr height=40>
+            <td width=80>会&nbsp;&nbsp;&nbsp;员&nbsp;&nbsp;&nbsp;名</td>
+            <td width=240>&nbsp;<input type="text" name="memberName" id="memberName" value="请输入会员名"
+                                       style="color: #999999" onfocus="value='';color='#000'"
+                                       onblur="if(!value){value=defaultValue;this.style.color='#999'}"></td>
+        </tr>
+        <tr height=40>
+            <td width=80>用&nbsp;&nbsp;&nbsp;户&nbsp;&nbsp;&nbsp;名</td>
+            <td width=240>&nbsp;<input type="text" name="userName" id="userName" value="请输入用户名" style="color: #999999"
+                                       onfocus="value='';color='#000'"></td>
+        </tr>
+        <tr height=40>
+            <td width=80>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码</td>
+            <td width=240>&nbsp;<input type="text" name="password" id="password" value="请输入密码" style="color: #999999"
+                                       onfocus="value='';color='#000'"></td>
+        </tr>
+        <tr height=40>
+            <td width=80>&nbsp;<input type="checkbox" value="remember">记住我</td>
+            <td width=240 align="right">&nbsp;<a href="" style="text-decoration: none"><font color="blue"> 忘记密码？</font></a>
+            </td>
+        </tr>
+        <tr height=40>
+            <td colspan=2 align="center">
+                <button type="submit">立即登录</button>
+            </td>
+        </tr>
+        <tr height=40>
+            <td colspan=2 align="right">没有账号？
+                <a href="" style="text-decoration: none"><span style="color: red; ">免费注册&nbsp;&nbsp;&nbsp;</span></a>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
+<script type="text/javascript">
+    function custcheck() {
+        let memberName = document.getElementById("memberName");
+        let userName = document.getElementById("userName");
+        let password = document.getElementById("password");
+        if (memberName.value === "" || memberName.value === "请输入会员名") {
+            alert("会员名不能为空!");
+            return false;
+        } else if (userName.value === "" || userName.value === "请输入用户名") {
+            alert("用户名不能为空!");
+            return false;
+        } else if (password.value === "" || password.value === "请输入密码") {
+            alert("密码不能为空!");
+            return false;
+        }
+        let reg = new RegExp("[\\u4E00-\\u9FFF]+", "g");
+        if (!reg.test(memberName.value)) {
+            alert("会员名必须为中文");
+            return false;
+        }
+        return true;
+    }
+</script>
