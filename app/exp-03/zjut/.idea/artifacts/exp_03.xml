@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="exp-03">
+    <output-path>$PROJECT_DIR$/out/artifacts/exp_03</output-path>
+    <root id="archive" name="exp-03.war">
+      <element id="artifact" artifact-name="zjut:war exploded" />
+    </root>
+  </artifact>
+</component>
