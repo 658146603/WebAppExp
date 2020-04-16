@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="healthy-code">
+    <output-path>$PROJECT_DIR$/out/artifacts/healthy_code</output-path>
+    <root id="archive" name="healthy-code.war">
+      <element id="artifact" artifact-name="healthy-code:exploded" />
+    </root>
+  </artifact>
+</component>

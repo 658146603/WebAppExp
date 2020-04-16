@@ -1,0 +1,26 @@
+{
+  "version": "9",
+  "items": {
+    "686f1d8d06abaf5de1b8ae9b91874fa7": {
+      "src": "C:\\Users\\WCF\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-js\\1.3.71\\5c9d5bdce5439a08523788a30fcd5ff80b345a7c\\kotlin-stdlib-js-1.3.71.jar",
+      "target": "kotlin\\1.3.71"
+    },
+    "ef5f96dd444681261ec515b55a3b484e": {
+      "src": "C:\\Users\\WCF\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-common\\1.3.71\\e71c3fef58e26affeb03d675e91fd8abdd44aa7b\\kotlin-stdlib-common-1.3.71.jar"
+    },
+    "f9d4987f9f85b522d0ab7969e1b84a01": {
+      "src": "C:\\Users\\WCF\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-test-js\\1.3.71\\a9e8cde5fd97541ddac2fb9f59754c898a4763bf\\kotlin-test-js-1.3.71.jar",
+      "target": "kotlin-test\\1.3.71"
+    },
+    "048216cca5df8ca506b458802fb89005": {
+      "src": "C:\\Users\\WCF\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-test-common\\1.3.71\\d3f19613a5ca70d129f74c0b56a1e7ed1a327bdf\\kotlin-test-common-1.3.71.jar"
+    },
+    "8123d35094c5c92ea47201d6c8e1418d": {
+      "src": "C:\\Users\\WCF\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-test-annotations-common\\1.3.71\\476c671586a6c89430c62ddfcf0353a2bb9e5255\\kotlin-test-annotations-common-1.3.71.jar"
+    },
+    "296a94b42eee0dab91b25812a3a3e4d5": {
+      "src": "C:\\Users\\WCF\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-test-js-runner\\1.3.71\\cde009b03c1527425370d77f38c05c427401745c\\kotlin-test-js-runner-1.3.71.jar",
+      "target": "kotlin-test-js-runner\\1.3.71"
+    }
+  }
+}
