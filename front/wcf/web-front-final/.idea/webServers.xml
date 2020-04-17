@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c86372be-ecc1-4290-b31d-fdde40e1ce59" name="aliyun" url="https://wcf.huhaorui.com/front/final">
+        <fileTransfer rootFolder="/var/www/html" accessType="SFTP" host="wcf.huhaorui.com" port="22" sshConfigId="d43bb356-003e-4b25-a70a-4d7d482785dd" sshConfig="root@wcf.huhaorui.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

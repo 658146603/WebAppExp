@@ -4,9 +4,8 @@ if (typeof kotlin === 'undefined') {
   'use strict';
   var println = Kotlin.kotlin.io.println_s8jyv4$;
   function main(args) {
-    var root = document.getElementById('root');
+    var content = document.getElementById('content');
     println('hello, world');
-    var menu = document.getElementById('toolbar-menu');
   }
   _.main_kand9s$ = main;
   main([]);

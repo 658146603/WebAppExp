@@ -2,66 +2,201 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>主页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <title>浙江工业大学</title>
+    <link rel="icon" type="image/icon" href="image/favicon.ico"/>
     <link href="css/mdui.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <script src="js/mdui.js"></script>
     <script type="text/javascript" src="lib/kotlin.js"></script>
     <script type="text/javascript" src="lib/kotlinx-html-js.js"></script>
 </head>
-<body class="mdui-theme-primary-indigo mdui-theme-accent-pink mdui-loaded">
-<div class="mdui-drawer" id="drawer">
-    <ul class="mdui-list">
-        <li class="mdui-list-item mdui-ripple">
-            <i class="mdui-list-item-icon mdui-icon material-icons">move_to_inbox</i>
-            <div class="mdui-list-item-content">Inbox</div>
-        </li>
-        <li class="mdui-list-item mdui-ripple">
-            <i class="mdui-list-item-icon mdui-icon material-icons">star</i>
-            <div class="mdui-list-item-content">Starred</div>
-        </li>
-        <li class="mdui-list-item mdui-ripple">
-            <i class="mdui-list-item-icon mdui-icon material-icons">send</i>
-            <div class="mdui-list-item-content">Sent mail</div>
-        </li>
-        <li class="mdui-list-item mdui-ripple">
-            <i class="mdui-list-item-icon mdui-icon material-icons">drafts</i>
-            <div class="mdui-list-item-content">Drafts</div>
-        </li>
-        <li class="mdui-subheader">Subheader</li>
-        <li class="mdui-list-item mdui-ripple">
-            <i class="mdui-list-item-icon mdui-icon material-icons">email</i>
-            <div class="mdui-list-item-content">All mail</div>
-        </li>
-        <li class="mdui-list-item mdui-ripple">
-            <i class="mdui-list-item-icon mdui-icon material-icons">delete</i>
-            <div class="mdui-list-item-content">Trash</div>
-        </li>
-        <li class="mdui-list-item mdui-ripple">
-            <i class="mdui-list-item-icon mdui-icon material-icons">error</i>
-            <div class="mdui-list-item-content">Spam</div>
-        </li>
-    </ul>
+<body class="mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-accent-pink mdui-loaded">
+<header class="mdui-appbar mdui-appbar-fixed">
+    <div class="mdui-toolbar mdui-color-theme">
+        <a id="toolbar-menu" mdui-drawer="{target: '#main-drawer', swipe: true}" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '菜单'}">
+            <i class="mdui-icon material-icons">menu</i>
+        </a>
+        <span class="mdui-typo-title">浙江工业大学</span>
+        <div class="mdui-toolbar-spacer"></div>
+        <a href="javascript:" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '搜索'}">
+            <i class="mdui-icon material-icons">search</i>
+        </a>
+        <a href="https://mail.zjut.edu.cn/" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '邮件系统'}">
+            <i class="mdui-icon material-icons">mail</i>
+        </a>
+        <a href="http://www.wsc.zjut.edu.cn/zjuteng/jsp2/index.jsp" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'English'}">
+            <i class="mdui-icon material-icons">language</i>
+        </a>
+        <a href="http://www.zjut.edu.cn/BigClass.jsp?bigclassid=126" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '学年校历'}">
+            <i class="mdui-icon material-icons">event</i>
+        </a>
+        <a href="http://oa.zjut.edu.cn/" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '校内办公'}">
+            <i class="mdui-icon material-icons">location_city</i>
+        </a>
+<!--        <a href="javascript:" class="mdui-btn mdui-btn-icon">-->
+<!--            <i class="mdui-icon material-icons">more_vert</i>-->
+<!--        </a>-->
+    </div>
+</header>
+<div class="mdui-drawer" id="main-drawer">
+    <div class="mdui-list" id="draw-list" mdui-collapse="{accordion: true}">
+        <div class="mdui-collapse-item">
+            <a href="index.html">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">home</i>
+                    <div class="mdui-list-item-content">首页</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="mdui-collapse-item ">
+            <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-brown">domain</i>
+                <div class="mdui-list-item-content">学校概况</div>
+                <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+            </div>
+            <div class="mdui-collapse-item-body mdui-list">
+                <a href="#" class="mdui-list-item mdui-ripple">学校简介</a>
+                <a href="#" class="mdui-list-item mdui-ripple">学校章程</a>
+                <a href="#" class="mdui-list-item mdui-ripple">校史沿革</a>
+                <a href="#" class="mdui-list-item mdui-ripple">历任领导</a>
+                <a href="#" class="mdui-list-item mdui-ripple">现任领导</a>
+                <a href="#" class="mdui-list-item mdui-ripple">学校章程</a>
+                <a href="#" class="mdui-list-item mdui-ripple">学校风光</a>
+            </div>
+        </div>
+
+        <div class="mdui-collapse-item ">
+            <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-purple">local_mall</i>
+                <div class="mdui-list-item-content">机构设置</div>
+                <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+            </div>
+            <div class="mdui-collapse-item-body mdui-list">
+                <a href="#" class="mdui-list-item mdui-ripple">机关部门</a>
+                <a href="#" class="mdui-list-item mdui-ripple">群团组织</a>
+                <a href="#" class="mdui-list-item mdui-ripple">学院（部、馆）</a>
+                <a href="#" class="mdui-list-item mdui-ripple">校区</a>
+                <a href="#" class="mdui-list-item mdui-ripple">校直属研究机构</a>
+                <a href="#" class="mdui-list-item mdui-ripple">机关直属单位</a>
+                <a href="#" class="mdui-list-item mdui-ripple">产业后勤系统</a>
+                <a href="#" class="mdui-list-item mdui-ripple">地方研究院</a>
+            </div>
+        </div>
+
+        <div class="mdui-collapse-item ">
+            <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-green">people</i>
+                <div class="mdui-list-item-content">师资队伍</div>
+                <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+            </div>
+            <div class="mdui-collapse-item-body mdui-list">
+                <a href="#" class="mdui-list-item mdui-ripple">人才风采</a>
+                <a href="#" class="mdui-list-item mdui-ripple">高层次人才计划</a>
+                <a href="#" class="mdui-list-item mdui-ripple">教师数据中心</a>
+                <a href="#" class="mdui-list-item mdui-ripple">博士后流动站</a>
+            </div>
+        </div>
+
+        <div class="mdui-collapse-item ">
+            <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-indigo">dashboard</i>
+                <div class="mdui-list-item-content">学科建设</div>
+                <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+            </div>
+            <div class="mdui-collapse-item-body mdui-list">
+                <a href="#" class="mdui-list-item mdui-ripple">国家重点学科</a>
+                <a href="#" class="mdui-list-item mdui-ripple">浙江省一流学科</a>
+                <a href="#" class="mdui-list-item mdui-ripple">博士学位授权点</a>
+                <a href="#" class="mdui-list-item mdui-ripple">硕士学位授权点</a>
+            </div>
+        </div>
+
+        <div class="mdui-collapse-item ">
+            <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-cyan">school</i>
+                <div class="mdui-list-item-content">教育科学</div>
+                <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+            </div>
+            <div class="mdui-collapse-item-body mdui-list">
+                <a href="#" class="mdui-list-item mdui-ripple">本科生教育</a>
+                <a href="#" class="mdui-list-item mdui-ripple">研究生教育</a>
+                <a href="#" class="mdui-list-item mdui-ripple">国际教育</a>
+                <a href="#" class="mdui-list-item mdui-ripple">继续教育</a>
+            </div>
+        </div>
+
+        <div class="mdui-collapse-item ">
+            <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-yellow">wb_incandescent</i>
+                <div class="mdui-list-item-content">科学研究</div>
+                <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+            </div>
+            <div class="mdui-collapse-item-body mdui-list">
+                <a href="#" class="mdui-list-item mdui-ripple">社会技术研究院</a>
+                <a href="#" class="mdui-list-item mdui-ripple">社会科学研究院</a>
+                <a href="#" class="mdui-list-item mdui-ripple">工业研究院</a>
+                <a href="#" class="mdui-list-item mdui-ripple">国家大学科技园</a>
+            </div>
+        </div>
+
+        <div class="mdui-collapse-item ">
+            <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-teal">group_work</i>
+                <div class="mdui-list-item-content">招生就业</div>
+                <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+            </div>
+            <div class="mdui-collapse-item-body mdui-list">
+                <a href="#" class="mdui-list-item mdui-ripple">本科生招生</a>
+                <a href="#" class="mdui-list-item mdui-ripple">研究生招生</a>
+                <a href="#" class="mdui-list-item mdui-ripple">留学生招生</a>
+                <a href="#" class="mdui-list-item mdui-ripple">继续教育招生</a>
+                <a href="#" class="mdui-list-item mdui-ripple">就业指导服务</a>
+            </div>
+        </div>
+
+        <div class="mdui-collapse-item ">
+            <a href="#">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">person</i>
+                    <div class="mdui-list-item-content">人才招聘</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="mdui-collapse-item ">
+            <a href="#">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-amber">timelapse</i>
+                    <div class="mdui-list-item-content">改革进展</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="mdui-collapse-item ">
+            <a href="#">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-orange">local_library</i>
+                    <div class="mdui-list-item-content">图书馆</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="mdui-collapse-item ">
+            <a href="#">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-green">info</i>
+                    <div class="mdui-list-item-content">信息门户</div>
+                </div>
+            </a>
+        </div>
+    </div>
 </div>
-<div class="mdui-toolbar mdui-color-theme">
-    <a id="toolbar-menu" href="javascript:new mdui.Drawer('#drawer').toggle()" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '菜单'}">
-        <i class="mdui-icon material-icons">menu</i>
-    </a>
-    <span class="mdui-typo-title">Title</span>
-    <div class="mdui-toolbar-spacer"></div>
-    <a href="javascript:" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '搜索'}">
-        <i class="mdui-icon material-icons">search</i>
-    </a>
-    <a href="javascript:" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '刷新'}">
-        <i class="mdui-icon material-icons">refresh</i>
-    </a>
-    <a href="javascript:" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '更多'}">
-        <i class="mdui-icon material-icons">more_vert</i>
-    </a>
-</div>
-<div class="mdui-container-fluid" id="root">
+<div class="mdui-container-fluid doc-container doc-no-cover" id="content">
 
 </div>
 <script type="text/javascript" src="web-front-final.js"></script>
+<script type="text/javascript" src="js/final.js"></script>
 </body>
 </html>

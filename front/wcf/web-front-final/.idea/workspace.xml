@@ -7,7 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be97d0cd-1767-43f6-b40c-401848d6de63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.idea/dictionaries/WCF.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/dictionaries/WCF.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/WCF.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/WCF.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +88,8 @@
         <option value="HTML File" />
         <option value="Kotlin File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="MY_ZJUT_TPL" />
       </list>
     </option>
   </component>
@@ -102,7 +112,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/kotlinx-html-js-0.7.1-sources.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/image/banner" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -113,17 +123,19 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17459017" />
     <property name="project.structure.side.proportion" value="0.35984096" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\lib" />
-      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\src" />
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final" />
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\src\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\resources\image\banner" />
+      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\lib" />
+      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -145,6 +157,7 @@
       <workItem from="1586998331787" duration="115000" />
       <workItem from="1586998554661" duration="4020000" />
       <workItem from="1587020438708" duration="3247000" />
+      <workItem from="1587108562982" duration="15291000" />
     </task>
     <servers />
   </component>
@@ -152,10 +165,22 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="69" y="106" width="1400" height="683" key="#Deployment" timestamp="1587115336558">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="69" y="106" width="1400" height="683" key="#Deployment/0.0.1536.864@0.0.1536.864" timestamp="1587115336558" />
+    <state x="348" y="126" key="#Options" timestamp="1587114726101">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="348" y="126" key="#Options/0.0.1536.864@0.0.1536.864" timestamp="1587114726101" />
     <state x="498" y="9" key="#Project_Structure" timestamp="1586998317162">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="498" y="9" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1586998317162" />
+    <state x="345" y="77" key="#SSH_Configurations" timestamp="1587114397983">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="345" y="77" key="#SSH_Configurations/0.0.1536.864@0.0.1536.864" timestamp="1587114397983" />
     <state x="447" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586998648194">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -164,6 +189,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="400" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1587001712157" />
+    <state x="759" y="122" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1587123414094">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="759" y="122" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.864@0.0.1536.864" timestamp="1587123414094" />
     <state x="368" y="121" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1586996338962">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -172,10 +201,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="459" y="90" width="838" height="683" key="#web-front-final.js/0.0.1536.864@0.0.1536.864" timestamp="1586941174126" />
-    <state x="660" y="190" key="FileChooserDialogImpl" timestamp="1587038981213">
+    <state x="888" y="290" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587115502408">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="660" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1587038981213" />
+    <state x="888" y="290" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1587115502408" />
+    <state x="93" y="93" width="1350" height="678" key="DirDiffDialog" timestamp="1587115680384">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="93" y="93" width="1350" height="678" key="DirDiffDialog/0.0.1536.864@0.0.1536.864" timestamp="1587115680384" />
+    <state x="660" y="190" key="FileChooserDialogImpl" timestamp="1587114453061">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="660" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1587114453061" />
     <state width="1495" height="221" key="GridCell.Tab.0.bottom" timestamp="1586998762469">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -196,9 +233,17 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="166" y="13" width="1234" height="851" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1586998756796" />
+    <state x="559" y="162" key="ftp.server.browser" timestamp="1587114461174">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="559" y="162" key="ftp.server.browser/0.0.1536.864@0.0.1536.864" timestamp="1587114461174" />
     <state x="399" y="92" width="1002" height="547" key="new project wizard" timestamp="1587038988526">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="399" y="92" width="1002" height="547" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1587038988526" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1587111256423">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1587111256423" />
   </component>
 </project>

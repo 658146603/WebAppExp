@@ -8,7 +8,6 @@ import kotlin.browser.document
 external fun alert(message: Any?)
 
 fun main(args: Array<String>) {
-    val root = document.getElementById("root")
+    val content = document.getElementById("content")
     println("hello, world")
-    val menu: Element? = document.getElementById("toolbar-menu")
 }
