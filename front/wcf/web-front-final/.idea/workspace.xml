@@ -7,15 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be97d0cd-1767-43f6-b40c-401848d6de63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/WCF.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/WCF.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/web-front-final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +155,7 @@
       <workItem from="1586998331787" duration="115000" />
       <workItem from="1586998554661" duration="4020000" />
       <workItem from="1587020438708" duration="3247000" />
-      <workItem from="1587108562982" duration="15291000" />
+      <workItem from="1587108562982" duration="18352000" />
     </task>
     <servers />
   </component>
