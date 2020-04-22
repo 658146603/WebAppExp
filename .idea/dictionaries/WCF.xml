@@ -1,9 +1,12 @@
 <component name="ProjectDictionaryState">
   <dictionary name="WCF">
     <words>
+      <w>badimg</w>
       <w>bdsharebuttonbox</w>
       <w>bookname</w>
       <w>cartmore</w>
+      <w>displaydate</w>
+      <w>displaytime</w>
       <w>dzyj</w>
       <w>infobook</w>
       <w>infobookc</w>
@@ -11,6 +14,7 @@
       <w>pagebar</w>
       <w>piclist</w>
       <w>qzone</w>
+      <w>submitmessage</w>
     </words>
   </dictionary>
 </component>

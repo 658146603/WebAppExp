@@ -8,12 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be97d0cd-1767-43f6-b40c-401848d6de63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +150,8 @@
       <workItem from="1586998554661" duration="4020000" />
       <workItem from="1587020438708" duration="3247000" />
       <workItem from="1587108562982" duration="18352000" />
+      <workItem from="1587351058656" duration="2911000" />
+      <workItem from="1587354011504" duration="2670000" />
     </task>
     <servers />
   </component>
@@ -171,6 +167,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="348" y="126" key="#Options/0.0.1536.864@0.0.1536.864" timestamp="1587114726101" />
+    <state x="361" y="73" key="#Plugins" timestamp="1587354125659">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="73" key="#Plugins/0.0.1536.864@0.0.1536.864" timestamp="1587354125659" />
     <state x="498" y="9" key="#Project_Structure" timestamp="1586998317162">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
