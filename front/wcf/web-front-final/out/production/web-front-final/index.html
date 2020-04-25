@@ -11,7 +11,7 @@
     <script type="text/javascript" src="lib/kotlin.js"></script>
     <script type="text/javascript" src="lib/kotlinx-html-js.js"></script>
 </head>
-<body class="mdui-appbar-with-toolbar mdui-theme-primary-teal mdui-theme-accent-pink mdui-loaded">
+<body class="mdui-appbar-with-toolbar mdui-theme-primary-teal mdui-theme-accent-pink mdui-loaded mdui-drawer-body-left">
 <header class="mdui-appbar mdui-appbar-fixed">
     <div class="mdui-toolbar mdui-color-theme">
         <a id="toolbar-menu" mdui-drawer="{target: '#main-drawer', swipe: true}" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '菜单'}">
@@ -34,9 +34,9 @@
         <a href="http://oa.zjut.edu.cn/" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '校内办公'}">
             <i class="mdui-icon material-icons">location_city</i>
         </a>
-<!--        <a href="javascript:" class="mdui-btn mdui-btn-icon">-->
-<!--            <i class="mdui-icon material-icons">more_vert</i>-->
-<!--        </a>-->
+        <!--        <a href="javascript:" class="mdui-btn mdui-btn-icon">-->
+        <!--            <i class="mdui-icon material-icons">more_vert</i>-->
+        <!--        </a>-->
     </div>
 </header>
 <div class="mdui-drawer" id="main-drawer">
@@ -193,8 +193,19 @@
         </div>
     </div>
 </div>
-<div class="mdui-container-fluid doc-container doc-no-cover" id="content">
-
+<div class="mdui-container-fluid" id="content">
+    <div class="mdui-row">
+        <div class="mdui-col-md-8 mdui-col-sm-12" style="height: fit-content;min-height: 10em;padding: 8px;">
+            <div class="" style="width: 100%; height: fit-content;">
+                <img class="mdui-card" src="image/banner/20191119025726.jpg" style="width: 100%;height: auto;" alt="news_01">
+            </div>
+        </div>
+        <div class="mdui-col-md-4 mdui-col-sm-12" style="height: fit-content;min-height: 10em;padding: 8px;">
+            <div class="" style="width: 100%; height: fit-content;">
+                <img class="mdui-card" src="image/banner/20200206071934.jpg" style="width: 100%;height: auto;" alt="news_01">
+            </div>
+        </div>
+    </div>
 </div>
 <script type="text/javascript" src="web-front-final.js"></script>
 <script type="text/javascript" src="js/final.js"></script>

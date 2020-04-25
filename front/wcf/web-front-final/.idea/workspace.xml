@@ -7,7 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be97d0cd-1767-43f6-b40c-401848d6de63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +155,7 @@
       <workItem from="1587108562982" duration="18352000" />
       <workItem from="1587351058656" duration="2911000" />
       <workItem from="1587354011504" duration="2670000" />
+      <workItem from="1587540227695" duration="5160000" />
     </task>
     <servers />
   </component>
@@ -163,6 +167,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="69" y="106" width="1400" height="683" key="#Deployment/0.0.1536.864@0.0.1536.864" timestamp="1587115336558" />
+    <state x="283" y="0" key="#HTML" timestamp="1587540337215">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="283" y="0" key="#HTML/0.0.1536.864@0.0.1536.864" timestamp="1587540337215" />
     <state x="348" y="126" key="#Options" timestamp="1587114726101">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -199,10 +207,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="459" y="90" width="838" height="683" key="#web-front-final.js/0.0.1536.864@0.0.1536.864" timestamp="1586941174126" />
-    <state x="888" y="290" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587115502408">
+    <state x="888" y="290" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587546184237">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="888" y="290" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1587115502408" />
+    <state x="888" y="290" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1587546184237" />
     <state x="93" y="93" width="1350" height="678" key="DirDiffDialog" timestamp="1587115680384">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
