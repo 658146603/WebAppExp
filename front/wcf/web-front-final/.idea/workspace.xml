@@ -7,10 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be97d0cd-1767-43f6-b40c-401848d6de63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/web-front-final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/js/final.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/js/final.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/article.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/final.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/final.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +138,16 @@
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://wcf.huhaorui.com/front/final/index.html">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -156,6 +171,8 @@
       <workItem from="1587351058656" duration="2911000" />
       <workItem from="1587354011504" duration="2670000" />
       <workItem from="1587540227695" duration="5160000" />
+      <workItem from="1587805467483" duration="12753000" />
+      <workItem from="1588497037189" duration="1087000" />
     </task>
     <servers />
   </component>
@@ -251,5 +268,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1587111256423" />
+    <state x="814" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1587806468454">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="814" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1587806468454" />
   </component>
 </project>
