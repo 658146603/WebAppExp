@@ -11,35 +11,41 @@
     <script type="text/javascript" src="lib/kotlin.js"></script>
     <script type="text/javascript" src="lib/kotlinx-html-js.js"></script>
 </head>
-<body class="mdui-appbar-with-toolbar mdui-theme-primary-teal mdui-theme-accent-pink mdui-loaded mdui-drawer-body-left">
+<body class="mdui-appbar-with-toolbar mdui-theme-primary-teal mdui-loaded mdui-drawer-body-left">
 <header class="mdui-appbar mdui-appbar-fixed">
     <div class="mdui-toolbar mdui-color-theme">
         <a id="toolbar-menu" mdui-drawer="{target: '#main-drawer', swipe: true}" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '菜单'}">
             <i class="mdui-icon material-icons">menu</i>
         </a>
-        <a href="index.html" class="mdui-typo-headline mdui-hidden-xs">浙江工业大学</a>
+        <a href="index.html" id="toolbar-title" class="mdui-typo-headline mdui-hidden-xs">浙江工业大学</a>
         <div class="mdui-toolbar-spacer"></div>
-<!--        <a href="javascript:" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '搜索'}">-->
-<!--            <i class="mdui-icon material-icons">search</i>-->
-<!--        </a>-->
 
-        <a href="https://mail.zjut.edu.cn/" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '邮件系统'}">
+        <div class="mdui-textfield mdui-textfield-expandable mdui-ripple" style="max-width: 60%;">
+            <label for="header-search"
+                   onclick="document.getElementById('toolbar-action-mail').style.display=document.getElementById('toolbar-action-language').style.display=document.getElementById('toolbar-action-event').style.display=document.getElementById('toolbar-action-office').style.display=document.getElementById('toolbar-action-mail').style.display='none';"
+                   class="mdui-textfield-icon mdui-btn mdui-btn-icon">
+                <i class="mdui-icon material-icons">search</i>
+            </label>
+            <input id="header-search" class="mdui-textfield-input" type="text" placeholder="搜索">
+            <button
+                    onclick="document.getElementById('toolbar-action-mail').style.display=document.getElementById('toolbar-action-language').style.display=document.getElementById('toolbar-action-event').style.display=document.getElementById('toolbar-action-office').style.display=document.getElementById('toolbar-action-mail').style.display='';"
+                    class="mdui-textfield-close mdui-btn mdui-btn-icon">
+                <i class="mdui-icon material-icons">close</i>
+            </button>
+        </div>
+
+        <a id="toolbar-action-mail" href="https://mail.zjut.edu.cn/" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '邮件系统'}">
             <i class="mdui-icon material-icons">mail</i>
         </a>
-        <a href="http://www.wsc.zjut.edu.cn/zjuteng/jsp2/index.jsp" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'English'}">
+        <a id="toolbar-action-language" href="http://www.wsc.zjut.edu.cn/zjuteng/jsp2/index.jsp" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'English'}">
             <i class="mdui-icon material-icons">language</i>
         </a>
-        <a href="http://www.zjut.edu.cn/BigClass.jsp?bigclassid=126" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '学年校历'}">
+        <a id="toolbar-action-event" href="http://www.zjut.edu.cn/BigClass.jsp?bigclassid=126" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '学年校历'}">
             <i class="mdui-icon material-icons">event</i>
         </a>
-        <a href="http://oa.zjut.edu.cn/" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '校内办公'}">
+        <a id="toolbar-action-office" href="http://oa.zjut.edu.cn/" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '校内办公'}">
             <i class="mdui-icon material-icons">location_city</i>
         </a>
-        <div class="mdui-textfield mdui-textfield-expandable mdui-ripple" style="max-width: 100%">
-            <label for="header-search" class="mdui-textfield-icon mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></label>
-            <input id="header-search" class="mdui-textfield-input" type="text" style="color: inherit" placeholder="搜索">
-            <button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
-        </div>
     </div>
 </header>
 <div class="mdui-drawer" id="main-drawer">
@@ -199,8 +205,8 @@
 <div class="mdui-container-fluid" id="content">
     <div class="mdui-row">
         <div class="mdui-col-md-8 mdui-col-sm-12" style="height: auto;margin-top: 8px;">
-            <div class="" style="height: auto;margin: 2px 2px 6px 2px;">
-                <img class="mdui-card" src="image/banner/20191119025726.jpg" style="width: 100%;height: auto;" alt="news_01">
+            <div id="news-banner-container" style="height: auto;margin: 2px 2px 6px 2px;">
+                <img id="news-banner" class="mdui-card" src="image/banner/20191119025726.jpg" style="width: 100%;height: auto;" alt="news_01">
             </div>
             <div class="mdui-col-md-6 mdui-col-sm-12" style="padding: 2px;">
                 <div class="mdui-card">
@@ -443,7 +449,55 @@
         </div>
     </div>
 </div>
-
+<footer class="" style="margin: 16px;">
+    <div style="width: fit-content;margin: 16px auto;">
+        <div class="mdui-chip"><span class="mdui-chip-title mdui-text-color-red">党风廉政建设</span></div>
+        <div class="mdui-chip"><span class="mdui-chip-title mdui-text-color-blue">本科教学评估</span></div>
+        <div class="mdui-chip"><span class="mdui-chip-title mdui-text-color-deep-purple">2011计划专栏</span></div>
+        <div class="mdui-chip"><span class="mdui-chip-title">招标信息</span></div>
+        <div class="mdui-chip"><span class="mdui-chip-title">精品课程</span></div>
+        <div class="mdui-chip"><span class="mdui-chip-title">精弘苑</span></div>
+        <div class="mdui-chip"><span class="mdui-chip-title">工大校友</span></div>
+        <div class="mdui-chip"><span class="mdui-chip-title">媒体工大</span></div>
+        <div class="mdui-chip"><span class="mdui-chip-title">视频新闻</span></div>
+        <div class="mdui-chip"><span class="mdui-chip-title">工大校报</span></div>
+        <div class="mdui-chip"><span class="mdui-chip-title">学生社区</span></div>
+        <div class="mdui-chip"><span class="mdui-chip-title">信息服务</span></div>
+        <div class="mdui-chip"><span class="mdui-chip-title">信息公开</span></div>
+        <div class="mdui-chip"><span class="mdui-chip-title">相关链接</span></div>
+    </div>
+    <img alt="zjut" src="image/zjut-logo-wide.jpg" style="width: auto;height: 64px;display: inline-block;margin: 0 0">
+    <div style="display: inline-block;">
+        <div id="footer-chip-location" class="mdui-chip">
+            <span class="mdui-chip-icon"><i class="mdui-list-item-icon mdui-icon material-icons">location_on</i></span>
+            <span class="mdui-chip-title">浙江省杭州市下城区潮王路18号</span>
+        </div>
+        <div id="footer-chip-mail" class="mdui-chip">
+            <span class="mdui-chip-title">邮编 310014</span>
+        </div>
+        <div id="footer-chip-tel" onclick="window.location.href='tel:0571-88320114'" class="mdui-chip">
+            <span class="mdui-chip-icon"><i class="mdui-list-item-icon mdui-icon material-icons">phone</i></span>
+            <span class="mdui-chip-title">查号台 0571-88320114</span>
+        </div>
+        <div id="footer-chip-copy" class="mdui-chip">
+            <span class="mdui-chip-icon"><i class="mdui-list-item-icon mdui-icon material-icons">copyright</i></span>
+            <span class="mdui-chip-title">版权所有 ©浙江工业大学</span>
+        </div>
+        <div id="footer-chip-maintain" class="mdui-chip">
+            <span class="mdui-chip-title">信息化办公室维护</span>
+        </div>
+        <div id="footer-chip-email" onclick="window.location.href='mailto:www@zjut.edu.cn'" class="mdui-chip">
+            <span class="mdui-chip-icon"><i class="mdui-list-item-icon mdui-icon material-icons">email</i></span>
+            <span class="mdui-chip-title">网站管理 www@zjut.edu.cn</span>
+        </div>
+        <br>
+        <div id="footer-chip-miitbeian" class="mdui-chip">
+            <span class="mdui-chip-icon">备</span>
+            <span class="mdui-chip-title">浙ICP备 00000000号</span>
+        </div>
+        <div id="footer-chip-beian" class="mdui-chip"><span class="mdui-chip-title">浙公网安备 00000000000000号</span></div>
+    </div>
+</footer>
 <script type="text/javascript" src="web-front-final.js"></script>
 <script type="text/javascript" src="js/final.js"></script>
 </body>

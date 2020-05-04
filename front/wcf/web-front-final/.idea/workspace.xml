@@ -7,15 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be97d0cd-1767-43f6-b40c-401848d6de63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/WCF.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/WCF.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/web-front-final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/web-front-final/js/final.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/js/final.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.meta.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.meta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/web-front-final/root-package.kjsm" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/web-front-final/root-package.kjsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectFilesBackup/.idea/web-front-final.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/final.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/final.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,23 +132,33 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\src" />
-      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final" />
-      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\src\main" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\resources\image\banner" />
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\lib" />
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\resources\image" />
+      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\src" />
+      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final" />
+      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\src\main" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.web-front-final.js">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://wcf.huhaorui.com/front/final/index.html">
       <method v="2" />
     </configuration>
+    <configuration name="web-front-final.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/out/production/web-front-final/web-front-final.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="NODE_PATH" value="out/production/web-front-final/lib" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.web-front-final.js" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -172,7 +187,7 @@
       <workItem from="1587354011504" duration="2670000" />
       <workItem from="1587540227695" duration="5160000" />
       <workItem from="1587805467483" duration="12753000" />
-      <workItem from="1588497037189" duration="1087000" />
+      <workItem from="1588497037189" duration="16568000" />
     </task>
     <servers />
   </component>
@@ -236,22 +251,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="660" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1587114453061" />
-    <state width="1495" height="221" key="GridCell.Tab.0.bottom" timestamp="1586998762469">
+    <state width="725" height="220" key="GridCell.Tab.0.bottom" timestamp="1588572774398">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1495" height="221" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586998762469" />
-    <state width="1495" height="221" key="GridCell.Tab.0.center" timestamp="1586998762469">
+    <state width="725" height="220" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1588572774398" />
+    <state width="725" height="220" key="GridCell.Tab.0.center" timestamp="1588572774398">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1495" height="221" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1586998762469" />
-    <state width="1495" height="221" key="GridCell.Tab.0.left" timestamp="1586998762469">
+    <state width="725" height="220" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1588572774398" />
+    <state width="725" height="220" key="GridCell.Tab.0.left" timestamp="1588572774397">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1495" height="221" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1586998762469" />
-    <state width="1495" height="221" key="GridCell.Tab.0.right" timestamp="1586998762469">
+    <state width="725" height="220" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1588572774397" />
+    <state width="725" height="220" key="GridCell.Tab.0.right" timestamp="1588572774398">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1495" height="221" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1586998762469" />
+    <state width="725" height="220" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1588572774398" />
     <state x="166" y="13" width="1234" height="851" key="SettingsEditor" timestamp="1586998756796">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -264,10 +279,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="399" y="92" width="1002" height="547" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1587038988526" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1587111256423">
+    <state x="425" y="197" key="run.anything.popup" timestamp="1588573514191">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1587111256423" />
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1588573514191" />
     <state x="814" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1587806468454">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
