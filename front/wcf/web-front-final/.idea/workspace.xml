@@ -7,17 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be97d0cd-1767-43f6-b40c-401848d6de63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ktjs/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ktjs/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ktjs/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ktjs/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ktjs/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ktjs/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ktjs/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ktjs/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/build/classes/kotlin/main/ktjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/build/classes/kotlin/main/ktjs.meta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/build/classes/kotlin/main/ktjs/root-package.kjsm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ktjs/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ktjs/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/WCF.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/WCF.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/web-front-final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web-front-final.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/web-front-final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/web-front-final/js/final.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/js/final.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.meta.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.meta.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/web-front-final/web-front-final/root-package.kjsm" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/web-front-final/root-package.kjsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectFilesBackup/.idea/web-front-final.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/final.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/final.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
@@ -117,7 +132,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/image/banner" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/kotlin-js-jquery-3.2.0-0-sources.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -125,7 +140,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.17459017" />
     <property name="project.structure.side.proportion" value="0.35984096" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -133,11 +148,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\resources\image\banner" />
+      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\src" />
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\lib" />
+      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\resources\image\banner" />
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\lib" />
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\resources\image" />
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\src" />
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final" />
@@ -187,7 +204,8 @@
       <workItem from="1587354011504" duration="2670000" />
       <workItem from="1587540227695" duration="5160000" />
       <workItem from="1587805467483" duration="12753000" />
-      <workItem from="1588497037189" duration="16568000" />
+      <workItem from="1588497037189" duration="29952000" />
+      <workItem from="1588600669863" duration="5020000" />
     </task>
     <servers />
   </component>
@@ -247,10 +265,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="DirDiffDialog/0.0.1536.864@0.0.1536.864" timestamp="1587115680384" />
-    <state x="660" y="190" key="FileChooserDialogImpl" timestamp="1587114453061">
+    <state x="660" y="190" key="FileChooserDialogImpl" timestamp="1588588604424">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="660" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1587114453061" />
+    <state x="660" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1588588604424" />
     <state width="725" height="220" key="GridCell.Tab.0.bottom" timestamp="1588572774398">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -267,10 +285,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="725" height="220" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1588572774398" />
-    <state x="166" y="13" width="1234" height="851" key="SettingsEditor" timestamp="1586998756796">
+    <state x="166" y="13" width="1234" height="851" key="SettingsEditor" timestamp="1588590678035">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="166" y="13" width="1234" height="851" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1586998756796" />
+    <state x="166" y="13" width="1234" height="851" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1588590678035" />
     <state x="559" y="162" key="ftp.server.browser" timestamp="1587114461174">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
