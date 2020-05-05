@@ -3,6 +3,11 @@
     <output-path>$PROJECT_DIR$/out/artifacts/exp_04</output-path>
     <root id="archive" name="exp-04.war">
       <element id="artifact" artifact-name="zjut:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="taglibs-standard" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>
