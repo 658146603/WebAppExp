@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3950c897-4717-400f-8b54-d1ef340188a1" name="wcf.huhaorui.com" url="https://wcf.huhaorui.com/WebAppExp/front/wcf/my-zjut/">
+        <fileTransfer rootFolder="/var/www/html/WebAppExp/front/wcf/my-zjut" accessType="SFTP" host="wcf.huhaorui.com" port="22" sshConfigId="054e47e4-0a74-4640-b317-a6fc5ffafaca" sshConfig="root@wcf.huhaorui.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

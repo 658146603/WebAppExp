@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="kotlinx-html-js" type="kotlin.js">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/kotlinx-html-js-0.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/kotlinx-html-js-0.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
