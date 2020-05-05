@@ -1,3 +1,25 @@
 #draw-list {
     margin-bottom: 76px;
 }
+
+.center {
+    width: fit-content;
+    margin: 8px auto;
+    padding: 0 8px;
+}
+
+footer div div {
+    display: inline-block;
+}
+
+#zjut-logo {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+}
+
+.beian {
+    width: fit-content;
+    margin: 8px auto;
+    padding: 0;
+}

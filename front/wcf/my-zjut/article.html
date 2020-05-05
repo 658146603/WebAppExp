@@ -8,6 +8,7 @@
     <link href="css/mdui.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <script src="js/mdui.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
 </head>
 <body class="mdui-appbar-with-toolbar mdui-theme-primary-teal mdui-theme-accent-pink mdui-loaded">
 <header class="mdui-appbar mdui-appbar-fixed">
@@ -35,7 +36,7 @@
 
 </div>
 <footer>
-    <div style="width: fit-content;margin: 8px auto;">
+    <div class="center">
         <div class="mdui-card mdui-color-red-200" style="display: inline-block;"><button class="mdui-btn mdui-text-color-white">党风廉政建设</button></div>
         <div class="mdui-card mdui-color-blue-200" style="display: inline-block;"><button class="mdui-btn mdui-text-color-white">本科教学评估</button></div>
         <div class="mdui-card mdui-color-purple-200" style="display: inline-block;"><button class="mdui-btn mdui-text-color-white">2011计划专栏</button></div>
@@ -51,46 +52,47 @@
         <div class="mdui-card mdui-color-green-200" style="display: inline-block;"><button class="mdui-btn mdui-text-color-white">信息公开</button></div>
         <div class="mdui-card mdui-color-teal-200" style="display: inline-block;"><button class="mdui-btn mdui-text-color-white">相关链接</button></div>
     </div>
-    <div class="mdui-row" style="margin: 8px auto">
+    <div class="mdui-row beian">
         <div class="mdui-col-sm-12 mdui-col-md-2">
-            <img alt="zjut" src="image/zjut-logo-wide.jpg" style="width: 100%;height: auto">
+            <img id="zjut-logo" alt="zjut" src="image/zjut-logo-wide.jpg" style="width: 100%;height: auto">
         </div>
         <div class="mdui-col-sm-12 mdui-col-md-10">
-            <div id="footer-chip-location" class="mdui-card" style="display: inline-block">
+            <div id="footer-chip-location" onclick="nav_dialog();">
                 <button class="mdui-btn mdui-text-color-black">
                     <i class="mdui-icon material-icons">location_on</i> 浙江省杭州市下城区潮王路18号
                 </button>
             </div>
-            <div id="footer-chip-tel" onclick="window.location.href='tel:0571-88320114'" class="mdui-card" style="display: inline-block">
+            <div id="footer-chip-tel" onclick="window.location.href='tel:0571-88320114'">
                 <button class="mdui-btn mdui-text-color-black">
                     <i class="mdui-icon material-icons">phone</i> 查号台 0571-88320114
                 </button>
             </div>
-            <div id="footer-chip-copy" onclick="" class="mdui-card" style="display: inline-block">
+            <div id="footer-chip-copy" onclick="">
                 <button class="mdui-btn mdui-text-color-black">
                     <i class="mdui-icon material-icons">copyright</i> 版权所有 ©浙江工业大学
                 </button>
             </div>
-            <div id="footer-chip-email" onclick="window.location.href='mailto:www@zjut.edu.cn'" class="mdui-card" style="display: inline-block">
+            <div id="footer-chip-email" onclick="window.location.href='mailto:www@zjut.edu.cn'">
                 <button class="mdui-btn mdui-text-color-black">
                     <i class="mdui-icon material-icons">email</i> 网站管理 www@zjut.edu.cn
                 </button>
             </div>
-            <div id="footer-chip-maintain" onclick="window.location.href='http://www.nic.zjut.edu.cn/'" class="mdui-card" style="display: inline-block">
+            <div id="footer-chip-maintain" onclick="window.location.href='http://www.nic.zjut.edu.cn/'">
                 <button class="mdui-btn mdui-text-color-black"><i class="mdui-icon material-icons">domain</i> 信息化办公室维护</button>
             </div>
-            <div id="footer-chip-mail" class="mdui-card" style="display: inline-block">
+            <div id="footer-chip-mail">
                 <button class="mdui-btn mdui-text-color-black">邮编 310014</button>
             </div>
-            <div id="footer-chip-miitbeian" onclick="window.location.href='http://www.miitbeian.gov.cn/'" class="mdui-card" style="display: inline-block">
+            <div id="footer-chip-miitbeian" onclick="window.location.href='http://www.miitbeian.gov.cn/'">
                 <button class="mdui-btn mdui-text-color-black">浙ICP备00000000号</button>
             </div>
-            <div id="footer-chip-beian" onclick="window.location.href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010302002621'" class="mdui-card" style="display: inline-block">
+            <div id="footer-chip-beian" onclick="window.location.href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010302002621'">
                 <button class="mdui-btn mdui-text-color-black">浙公网安备00000000000000号</button>
             </div>
         </div>
     </div>
 </footer>
 <script src="js/article.js"></script>
+<script src="js/navigator.js"></script>
 </body>
 </html>
