@@ -2,23 +2,28 @@ if (typeof kotlin === 'undefined') {
   throw new Error("Error loading module 'web-front-final'. Its dependency 'kotlin' was not found. Please, check whether 'kotlin' is loaded prior to 'web-front-final'.");
 }this['web-front-final'] = function (_, Kotlin) {
   'use strict';
+  var Kind_CLASS = Kotlin.Kind.CLASS;
+  function E(id) {
+    this.element = document.getElementById(id);
+  }
+  E.prototype.onclick_o14v8n$ = function (method) {
+    onclick(this.element, method);
+  };
+  E.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'E',
+    interfaces: []
+  };
   function onclick($receiver, method) {
     $receiver.addEventListener('click', method);
-  }
-  function get_element($receiver) {
-    return document.getElementById($receiver);
-  }
-  function onclick_0($receiver, method) {
-    onclick(get_element($receiver), method);
   }
   function redirect(url) {
     window.location.href = url;
   }
   function main() {
   }
+  _.E = E;
   _.onclick_dijw22$ = onclick;
-  _.get_element_pdl1vz$ = get_element;
-  _.onclick_79xod4$ = onclick_0;
   _.redirect_61zpoe$ = redirect;
   _.main = main;
   main();

@@ -5,15 +5,15 @@ import kotlin.browser.window
 external fun alert(message: Any?)
 external val mdui: dynamic
 
-fun Element?.onclick(method: () -> Unit) {
-    this.asDynamic().addEventListener("click", method)
+class E(id: String) {
+    val element: Element? = document.getElementById(id)
+    fun onclick(method: () -> Unit) {
+        element.onclick(method)
+    }
 }
 
-val String.element: Element?
-    get() = document.getElementById(this)
-
-fun String.onclick(method: () -> Unit) {
-    this.element.onclick(method)
+fun Element?.onclick(method: () -> Unit) {
+    this.asDynamic().addEventListener("click", method)
 }
 
 fun redirect(url: String) {

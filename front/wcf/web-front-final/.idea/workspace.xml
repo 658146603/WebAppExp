@@ -7,11 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be97d0cd-1767-43f6-b40c-401848d6de63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../app/exp-04/zjut/.idea/artifacts/exp_04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../app/exp-04/zjut/.idea/artifacts/exp_04.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../app/exp-04/zjut/.idea/artifacts/zjut_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../app/exp-04/zjut/.idea/artifacts/zjut_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../app/exp-04/zjut/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../app/exp-04/zjut/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../app/exp-04/zjut/zjut.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../app/exp-04/zjut/zjut.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/js/final.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.meta.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/web-front-final.meta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/web-front-final/root-package.kjsm" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/web-front-final/root-package.kjsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/final.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +92,8 @@
         <option value="HTML File" />
         <option value="Kotlin File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="MY_ZJUT_TPL" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -108,7 +116,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/kotlin-js-jquery-3.2.0-0-sources.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -123,18 +131,18 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\src" />
-      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\lib" />
-      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\resources\image\banner" />
-      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\lib" />
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\resources\image" />
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\src" />
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final" />
       <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\src\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\src" />
+      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\lib" />
+      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final\resources\image\banner" />
+      <recent name="E:\Documents\Github\WebAppExp\front\wcf\web-front-final" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.web-front-final.js">
@@ -181,7 +189,7 @@
       <workItem from="1587540227695" duration="5160000" />
       <workItem from="1587805467483" duration="12753000" />
       <workItem from="1588497037189" duration="29952000" />
-      <workItem from="1588600669863" duration="9419000" />
+      <workItem from="1588600669863" duration="13142000" />
     </task>
     <servers />
   </component>
