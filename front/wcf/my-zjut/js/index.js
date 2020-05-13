@@ -47,7 +47,25 @@ window.onload = function () {
         "image/banner/20200415052132.jpg"
     ];
 
+    let little_dots = [
+        document.getElementById('little-dot-0'),
+        document.getElementById('little-dot-1'),
+        document.getElementById('little-dot-2'),
+        document.getElementById('little-dot-3'),
+        document.getElementById('little-dot-4'),
+        document.getElementById('little-dot-5'),
+        document.getElementById('little-dot-6'),
+        document.getElementById('little-dot-7')
+    ];
+
     let bannerTimer = window.setInterval(function () {
         $('#news-banner').attr('src', newsPics[(++pic_index) % newsPics.length])
+        little_dots.forEach(function (dot, index) {
+                if (index === pic_index % newsPics.length) {
+                    dot.style.backgroundColor = '#64ffda';
+                } else {
+                    dot.style.backgroundColor = '#fefefe';
+                }
+            });
     }, 3000);
 }

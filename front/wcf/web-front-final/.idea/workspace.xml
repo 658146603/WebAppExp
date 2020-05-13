@@ -7,13 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be97d0cd-1767-43f6-b40c-401848d6de63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaScript.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/kotlin_stdlib_js.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web-front-final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web-front-final.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-zjut/js/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-zjut/js/news.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-zjut/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/../my-zjut/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/web-front-final/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/web-front-final/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/news.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +180,8 @@
       <workItem from="1587805467483" duration="12753000" />
       <workItem from="1588497037189" duration="29952000" />
       <workItem from="1588600669863" duration="14903000" />
+      <workItem from="1589024875123" duration="695000" />
+      <workItem from="1589107047268" duration="12000" />
     </task>
     <servers />
   </component>
