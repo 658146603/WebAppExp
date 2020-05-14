@@ -11,7 +11,7 @@
     <script src="js/jquery-3.5.1.js"></script>
 </head>
 <body class="mdui-appbar-with-toolbar mdui-theme-primary-teal mdui-loaded mdui-drawer-body-left">
-<header class="mdui-appbar mdui-appbar-fixed" mdui-headroom>
+<header class="mdui-appbar mdui-appbar-fixed">
     <div class="mdui-toolbar mdui-color-theme">
         <a id="toolbar-menu" mdui-drawer="{target: '#main-drawer', swipe: true}" class="mdui-btn mdui-btn-icon">
             <i class="mdui-icon material-icons">menu</i>
@@ -206,7 +206,7 @@
         <div class="mdui-col-md-8 mdui-col-sm-12" style="height: auto;margin-top: 8px;">
             <div id="news-banner-container" style="position:relative;">
                 <ul class="" style="">
-                    <li><div style="background-color: #64ffda;" id="little-dot-0"></div></li>
+                    <li><div style="background-color: #ff4081;" id="little-dot-0"></div></li>
                     <li><div id="little-dot-1"></div></li>
                     <li><div id="little-dot-2"></div></li>
                     <li><div id="little-dot-3"></div></li>
@@ -217,36 +217,23 @@
                 </ul>
                 <img id="news-banner" class="mdui-card" src="image/banner/20191119025726.jpg" style="width: 100%;height: auto;" alt="news_01">
             </div>
-            <div class="mdui-col-md-6 mdui-col-sm-12" style="padding: 2px;">
-                <div class="mdui-card" onclick="location.href='article.html'">
+            <div class="mdui-col-md-12 mdui-col-sm-12" style="padding: 2px;">
+                <div id="pic_news_card" class="mdui-card" onclick="location.href='article.html'">
                     <div class="mdui-card-media">
-                        <img alt="pic_news" src="image/1587118838406009180.jpg"/>
+                        <img id="pic_news_picture" alt="pic_news" src="image/1587118838406009180.jpg"/>
+                        <div class="mdui-card-media-covered">
+                            <div class="mdui-card-primary">
+                                <div id="pic_news_title" class="mdui-card-primary-title">我校承担的国家重点研发计划“蓝色粮仓科技创新”重点专项...</div>
+                                <div id="pic_news_subtitle" class="mdui-card-primary-subtitle">来源：食品科学与工程学院 张建友</div>
+                            </div>
+                            <div id="pic_news_content" class="mdui-card-content">4月16日，由我校食品科学与工程学院丁玉庭教授牵头主持的国家重点研发计划“蓝色粮仓科技创新”重点专项——“水产品陆海联动保鲜保活与冷链物流技术”项目启动暨实施方案论证会如期举行。根据疫情防控工作要求，会议采用网络视频会议形式举行。</div>
+                        </div>
                     </div>
-                    <div class="mdui-card-primary">
-                        <div class="mdui-card-primary-title">我校承担的国家重点研发计划“蓝色粮仓科技创新”重点专项...</div>
-                        <div class="mdui-card-primary-subtitle">来源：食品科学与工程学院 张建友</div>
-                    </div>
-                    <div class="mdui-card-content">4月16日，由我校食品科学与工程学院丁玉庭教授牵头主持的国家重点研发计划“蓝色粮仓科技创新”重点专项——“水产品陆海联动保鲜保活与冷链物流技术”项目启动暨实施方案论证会如期举行。根据疫情防控工作要求，会议采用网络视频会议形式举行。</div>
-                    <div class="mdui-card-actions mdui-ripple">
-                        <div class="mdui-btn">查看详情</div>
-                        <button class="mdui-btn mdui-btn-icon mdui-float-right"><i class="mdui-icon material-icons">chevron_right</i></button>
-                    </div>
-                </div>
-            </div>
-            <div class="mdui-col-md-6 mdui-col-sm-12" style="padding: 2px;">
-                <div class="mdui-card" onclick="location.href='article.html'">
-                    <div class="mdui-card-media">
-                        <img alt="pic_news" src="image/1587627065906001946.jpg"/>
-                    </div>
-                    <div class="mdui-card-primary">
-                        <div class="mdui-card-primary-title">我校开展学生开学返校演练</div>
-                        <div class="mdui-card-primary-subtitle">来源：文 学生工作部 朱皆笑 图 人文学院 袁九生 程宸</div>
-                    </div>
-                    <div class="mdui-card-content">4月20日上午，学校在屏峰校区举行2020年春季学期学生开学返校演练。校长李小年，校党委副书记陈杰到场指导演练。<br>演练针对返校过程中可能出现的异常情况，以情景模拟和现场演练相结合的方式进行，包括学生接站报到、返校现场报到和公寓楼发热学生应急处理等三大场景。<br>学生接站报到场景中设置学生接站、接站现场异常学生应急处理和接站车来校等内容，返校现场报到场景中设置体温检测、“工大通行码”核验、行李消杀、报到现场异常学生应急处理等内容，公寓楼发热学生应急处理场景中设置了学生自测体温异常的应急处理内容。</div>
-                    <div class="mdui-card-actions mdui-ripple">
-                        <div class="mdui-btn">查看详情</div>
-                        <button class="mdui-btn mdui-btn-icon mdui-float-right"><i class="mdui-icon material-icons">chevron_right</i></button>
-                    </div>
+<!--                    <div id="pic_news_content" class="mdui-card-content">4月16日，由我校食品科学与工程学院丁玉庭教授牵头主持的国家重点研发计划“蓝色粮仓科技创新”重点专项——“水产品陆海联动保鲜保活与冷链物流技术”项目启动暨实施方案论证会如期举行。根据疫情防控工作要求，会议采用网络视频会议形式举行。</div>-->
+<!--                    <div class="mdui-card-actions mdui-ripple">-->
+<!--                        <div class="mdui-btn">查看详情</div>-->
+<!--                        <button class="mdui-btn mdui-btn-icon mdui-float-right"><i class="mdui-icon material-icons">chevron_right</i></button>-->
+<!--                    </div>-->
                 </div>
             </div>
         </div>

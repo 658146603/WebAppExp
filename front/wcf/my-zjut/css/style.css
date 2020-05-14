@@ -54,3 +54,10 @@ footer div div {
     border-radius: 8px;
     background-color: #ffffff;
 }
+
+#news-banner-container ul li div:hover {
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: #ff4081;
+}
