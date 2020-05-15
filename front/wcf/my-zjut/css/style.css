@@ -136,7 +136,7 @@ footer div div {
     background-color: transparent;
     width: fit-content;
     margin: 0 auto;
-    padding: 0;
+    padding: 8px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -145,15 +145,58 @@ footer div div {
 
 #headlines_index_dot_list li {
     list-style: none;
-    height: 42px;
-    width: 42px;
-    font-size: 20px;
-    line-height: 42px;
+    height: 32px;
+    width: 32px;
+    font-size: 16px;
+    line-height: 32px;
     text-align: center;
-    border: 1px #535353 solid;
     background-color: transparent;
+    color: #535353;
     display: inline-block;
-    margin: 4px 8px;
-    font-weight: lighter;
+    transition: all 1000ms;
+    margin: 0;
 }
 
+#headlines_index_dot_list li:hover {
+    list-style: none;
+    height: 32px;
+    width: 32px;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    background-color: rgba(83, 83, 83, 0.45);
+    color: #fefefe;
+    transition: all 1000ms;
+    display: inline-block;
+    margin: 0;
+}
+
+/*footer div div button {*/
+/*    border-radius: 0; !important;*/
+/*    -webkit-box-shadow: none; !important;*/
+/*    box-shadow: none; !important;*/
+/*}*/
+
+/*footer div div {*/
+/*    border-radius: 0; !important;*/
+/*    -webkit-box-shadow: none; !important;*/
+/*    box-shadow: none; !important;*/
+/*}*/
+
+.footer_button {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #000000;
+    background-color: #fff;
+}
+
+.normal_card {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #000000;
+    background-color: #fff;
+}
