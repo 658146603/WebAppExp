@@ -18,6 +18,10 @@ const normal = '#fefefe';
 const square_normal = 'rgba(255,255,255,0.15)';
 const square_accent = 'rgba(255,64,129,0.75)';
 
+function sleep(time) {
+    return new Promise((resolve) => setTimeout(resolve, time));
+}
+
 window.onload = () => {
     news_tab.addEventListener('change.mdui.tab', function (event) {
         if (event._detail.index === 0) {
@@ -113,7 +117,8 @@ window.onload = () => {
 
     let pic_banner_handler = () => {
         if (!pic_banner_flag) return;
-        $('#news-banner').attr('src', pic_banner_list[(++pic_banner_index) % pic_banner_list.length]);
+        let banner = $('#news-banner');
+        banner.attr('src', pic_banner_list[(++pic_banner_index) % pic_banner_list.length]);
         pic_banner_little_dots.forEach(function (dot, index) {
             if (index === pic_banner_index % pic_banner_list.length) {
                 dot.style.backgroundColor = accent;
