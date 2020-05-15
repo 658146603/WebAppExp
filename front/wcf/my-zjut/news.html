@@ -10,11 +10,11 @@
     <script src="js/mdui.js"></script>
     <script src="js/jquery-3.5.1.js"></script>
 </head>
-<body class="mdui-appbar-with-toolbar mdui-theme-primary-teal mdui-theme-accent-pink mdui-loaded">
+<body class="mdui-appbar-with-toolbar mdui-theme-primary-teal mdui-theme-accent-pink mdui-loaded mdui-drawer-body-left">
 <header class="mdui-appbar mdui-appbar-fixed">
     <div class="mdui-toolbar mdui-color-theme">
-        <a id="menu-btn" class="mdui-btn mdui-btn-icon" href="index.html">
-            <i class="mdui-icon material-icons">home</i>
+        <a id="menu-btn" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#news-drawer', swipe: true}" >
+            <i class="mdui-icon material-icons">menu</i>
         </a>
         <span class="mdui-typo-title">新闻列表</span>
         <div class="mdui-toolbar-spacer"></div>
@@ -32,36 +32,34 @@
         </a>
     </div>
 </header>
-<div class="mdui-container-fluid">
+<div class="mdui-drawer" id="news-drawer">
+
+</div>
+<div class="mdui-container-fluid" style="min-height: 1080px;">
     <div class="mdui-row">
-        <div class="mdui-col-md-6 mdui-col-xs-12">
-            <div>
-                <div>
-                    <div class="font-24px-center gray-background">头条新闻</div>
-                    <div id="headlines_news_container">
-                        <div id="headlines_news_card" class="mdui-card">
-                            <div class="mdui-card-media">
-                                <img id="headlines_news_picture" alt="headlines" src="image/news/1588170411953002848.jpg">
-                                <div class="mdui-card-media-covered">
-                                    <div class="mdui-card-primary" style="margin-bottom: 0; padding-bottom: 0;">
-                                        <div id="headlines_news_title" class="mdui-card-primary-title" style="font-size: 20px;">春意正浓，学校2020年春季学期错峰开学</div>
-                                        <div id="headlines_news_subtitle" class="mdui-card-primary-subtitle">文 党委宣传部 王臻<br>图 袁九生 黄捷 沈欣媛 孙滢璐</div>
-                                    </div>
-                                    <div id="headlines_news_content" class="mdui-card-content" style="margin-top: 0;padding-top: 0;">花香正浓，春意正旺。4月27日，我校迎来了2020年春季学期错峰开学的第一批返校学生。</div>
-                                </div>
-                            </div>
-                            <ul id="headlines_index_dot_list">
-                                <li><div id="headlines_index_dot_1">1</div></li>
-                                <li><div id="headlines_index_dot_2">2</div></li>
-                                <li><div id="headlines_index_dot_3">3</div></li>
-                                <li><div id="headlines_index_dot_4">4</div></li>
-                                <li><div id="headlines_index_dot_5">5</div></li>
-                            </ul>
+        <div class="mdui-col-md-7 mdui-col-xs-12">
+            <div id="headlines_news_container" class="mdui-hoverable" style="margin-top: 8px">
+                <div class="font-24px-center gray-background">头条新闻</div>
+                <div id="headlines_news_card" class="mdui-card">
+                    <div class="mdui-card-media">
+                        <img id="headlines_news_picture" alt="headlines" src="image/news/1588170411953002848.jpg">
+                        <div class="mdui-card-primary" style="margin-top: 0;margin-bottom: 0; padding-bottom: 0;">
+                            <div id="headlines_news_title" class="mdui-card-primary-title">春意正浓，学校2020年春季学期错峰开学</div>
+                            <div id="headlines_news_subtitle" class="mdui-card-primary-subtitle">文 党委宣传部 王臻<br>图 袁九生 黄捷 沈欣媛 孙滢璐</div>
                         </div>
+                        <div id="headlines_news_content" class="mdui-card-content" style="margin-top: 0;padding-top: 0;">花香正浓，春意正旺。4月27日，我校迎来了2020年春季学期错峰开学的第一批返校学生。</div>
                     </div>
+                    <ul id="headlines_index_dot_list">
+                        <li><div id="headlines_index_dot_1">1</div></li>
+                        <li><div id="headlines_index_dot_2">2</div></li>
+                        <li><div id="headlines_index_dot_3">3</div></li>
+                        <li><div id="headlines_index_dot_4">4</div></li>
+                        <li><div id="headlines_index_dot_5">5</div></li>
+                    </ul>
                 </div>
             </div>
         </div>
+        <div class="mdui-col-md-2 mdui-hidden-sm-down"></div>
         <div class="mdui-col-md-3 mdui-col-xs-12">
 
         </div>
@@ -85,12 +83,12 @@
         <div class="footer_button mdui-color-teal-200" style="display: inline-block;"><button class="mdui-btn mdui-text-color-white">相关链接</button></div>
     </div>
     <div class="mdui-row beian">
-        <div class="mdui-col-sm-12 mdui-col-md-2 mdui-hoverable">
+        <div class="mdui-col-sm-12 mdui-col-md-2">
             <img id="zjut-logo" alt="zjut" src="image/zjut-logo-wide.jpg" style="width: 100%;height: auto">
         </div>
         <div class="mdui-col-sm-12 mdui-col-md-10">
             <div id="footer-chip-location" onclick="nav_dialog();">
-                <button class="mdui-btn mdui-text-color-black">
+                <button class="mdui-btn mdui-text-color-black ">
                     <i class="mdui-icon material-icons">location_on</i> 浙江省杭州市下城区潮王路18号
                 </button>
             </div>

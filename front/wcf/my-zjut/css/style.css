@@ -119,7 +119,7 @@ footer div div {
     text-align: center;
     overflow: hidden;
     font-weight: bold;
-    font-family: '华文宋体', '宋体', '微软雅黑', serif;
+    font-family: '华文宋体', '宋体', serif;
 }
 
 .gray-background {
@@ -171,18 +171,6 @@ footer div div {
     margin: 0;
 }
 
-/*footer div div button {*/
-/*    border-radius: 0; !important;*/
-/*    -webkit-box-shadow: none; !important;*/
-/*    box-shadow: none; !important;*/
-/*}*/
-
-/*footer div div {*/
-/*    border-radius: 0; !important;*/
-/*    -webkit-box-shadow: none; !important;*/
-/*    box-shadow: none; !important;*/
-/*}*/
-
 .footer_button {
     position: relative;
     -webkit-box-sizing: border-box;
@@ -195,8 +183,46 @@ footer div div {
 .normal_card {
     position: relative;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
     overflow: hidden;
     color: #000000;
     background-color: #fff;
+}
+
+.border_square {
+    border: 1px #009688 solid;
+}
+
+.border_square_2 {
+    border: 2px #009688 solid;
+}
+
+.border_square_top {
+    border-top: 1px #009688 solid;
+}
+
+.border_square_left {
+    border-left: 1px #009688 solid;
+}
+
+.border_square_right {
+    border-right: 1px #009688 solid;
+}
+.border_square_bottom {
+    border-bottom: 1px #009688 solid;
+}
+
+.extra_no_padding {
+    padding: 0; !important;
+}
+
+.extra_padding_4 {
+    padding: 4px; !important;
+}
+
+.extra_margin_16 {
+    margin: 16px; !important;
+}
+
+.news_tab a {
+    min-width: auto; !important;
 }

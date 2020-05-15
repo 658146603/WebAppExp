@@ -9641,8 +9641,8 @@ select.mdui-select[multiple] option:last-child {
  */
 .mdui-appbar {
   z-index: 1000;
-  -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
-          box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+  /*-webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);*/
+  /*        box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);*/
 }
 /* appbar 固定在顶部 */
 .mdui-appbar-fixed {
@@ -10602,7 +10602,9 @@ select.mdui-select[multiple] option:last-child {
 }
 /* 密集型列表 */
 .mdui-list-dense {
-  padding: 4px 0;
+  /*padding: 4px 0;*/
+  /* edited */
+  padding: 0;
   font-size: 13px;
 }
 .mdui-list-dense > .mdui-divider,
