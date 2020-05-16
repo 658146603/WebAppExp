@@ -70,7 +70,7 @@ footer div div {
     right: 0;
     top: 50%;
     border: 1px #4c4c4c;
-    background-color: rgba(255, 255, 255, 0.2);
+    /*background-color: rgba(255, 255, 255, 0.2);*/
     transform: translate(0%, -50%);
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -81,7 +81,7 @@ footer div div {
 #pic_news_card ul li {
     display: block;
     padding: 0;
-    margin: 0;
+    margin: 4px;
 }
 
 #pic_news_card ul li:first-child {
@@ -113,8 +113,8 @@ footer div div {
 
 .font-24px-center {
     width: auto;
-    height: 56px;
-    line-height: 56px;
+    height: 48px;
+    line-height: 48px;
     font-size: 24px;
     text-align: center;
     overflow: hidden;
@@ -147,14 +147,15 @@ footer div div {
     list-style: none;
     height: 32px;
     width: 32px;
+    padding: 4px;
     font-size: 16px;
     line-height: 32px;
     text-align: center;
     background-color: transparent;
     color: #535353;
     display: inline-block;
-    transition: all 1000ms;
-    margin: 0;
+    transition: all 750ms;
+    margin: 4px;
 }
 
 #headlines_index_dot_list li:hover {
@@ -164,11 +165,11 @@ footer div div {
     font-size: 16px;
     line-height: 32px;
     text-align: center;
-    background-color: rgba(83, 83, 83, 0.45);
+    background-color: rgba(83, 83, 83, 0.55);
     color: #fefefe;
-    transition: all 1000ms;
+    transition: all 750ms;
     display: inline-block;
-    margin: 0;
+    margin: 4px;
 }
 
 .footer_button {
@@ -207,6 +208,7 @@ footer div div {
 .border_square_right {
     border-right: 1px #009688 solid;
 }
+
 .border_square_bottom {
     border-bottom: 1px #009688 solid;
 }
@@ -225,4 +227,39 @@ footer div div {
 
 .news_tab a {
     min-width: auto; !important;
+}
+
+.today_news_title {
+    font-size: 18px; !important;
+    line-height: 24px; !important;
+    text-align: center; !important;
+    padding: 16px;
+}
+
+.today_news_card:hover .today_news_title {
+    font-size: 18px; !important;
+    line-height: 24px; !important;
+    text-align: center; !important;
+    color: #fefefe;
+    background-color: #f06292;
+    padding: 16px; !important;
+}
+
+.divider_trans_16 {
+    height: 16px;
+}
+
+.extra_margin_top_8 {
+    margin-top: 8px;
+}
+
+.no_text_select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.hover_text_highlight:hover {
+    color: #f06292;
 }

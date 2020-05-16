@@ -15,8 +15,8 @@ let pic_news_flag = true;
 const accent = '#ff4081';
 const normal = '#fefefe';
 
-const square_normal = 'rgba(255,255,255,0.15)';
-const square_accent = 'rgba(255,64,129,0.75)';
+const square_normal = 'rgba(255,255,255,0)';
+const square_accent = 'rgba(255,64,129,1)';
 
 function sleep(time) {
     return new Promise((resolve) => setTimeout(resolve, time));

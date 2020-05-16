@@ -65,12 +65,6 @@ function set_headlines_selected_news(target) {
     $('#headlines_news_content').html(headlines_news[target].content)
 }
 
-let home_or_menu = false;
-
-function toggle_button() {
-
-}
-
 window.onload = () => {
     set_headlines_selected_news(0);
     headlines_news_dot.forEach((item, index) => {
