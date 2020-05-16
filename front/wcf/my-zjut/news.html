@@ -33,14 +33,25 @@
     </div>
 </header>
 <div class="mdui-drawer" id="news-drawer">
-
+    <img onclick="location.href='index.html'" alt="zjut" class="zjut_icon" src="image/zjut_1024.png">
+    <div onclick="location.href='index.html'" class="no_text_select menu_title_font hover_text_highlight">浙江工业大学</div>
+    <div onclick="location.href='news.html'"  class="no_text_select menu_title_font extra_font_56px">新闻网</div>
+    <div class="border_no_left_535353">
+        <ul id="news_nav_list" class="no_text_select">
+            <li class="hover_background_gray menu_font"><a href="#title_headlines">头条新闻</a></li>
+            <li class="hover_background_gray menu_font"><a href="#title_hot_news">今日热点</a></li>
+            <li class="hover_background_gray menu_font"><a href="#title_study_info">学术动态</a></li>
+        </ul>
+    </div>
 </div>
 <div class="mdui-container-fluid">
     <div class="mdui-row">
-        <div class="mdui-col-md-8 mdui-col-xs-12 extra_padding_4 extra_margin_top_8">
+        <div class="mdui-col-md-12 mdui-col-xs-12 extra_padding_4">
+            <div id="title_headlines" class="font-24px-center gray-background no_text_select hover_text_highlight extra_margin_top_8">头条新闻</div>
+        </div>
+        <div class="mdui-col-md-8 mdui-col-xs-12 extra_padding_4">
             <div id="headlines_news_container" class="mdui-hoverable">
-                <div class="font-24px-center gray-background no_text_select hover_text_highlight">头条新闻</div>
-                <div id="headlines_news_card" class="mdui-card">
+                <div id="headlines_news_card" class="mdui-card card_no_shadow">
                     <div class="mdui-card-media">
                         <img id="headlines_news_picture" alt="headlines" src="image/news/1588170411953002848.jpg">
                         <div class="mdui-card-primary" style="margin-top: 0;margin-bottom: 0; padding-bottom: 0;">
@@ -59,9 +70,9 @@
                 </div>
             </div>
         </div>
-        <div class="mdui-col-md-4 mdui-col-xs-12 extra_padding_4 extra_margin_top_8">
+        <div class="mdui-col-md-4 mdui-col-xs-12 extra_padding_4">
             <div>
-                <div class="mdui-card mdui-hoverable today_news_card no_text_select">
+                <div class="mdui-card mdui-hoverable today_news_card no_text_select card_no_shadow">
                     <div class="mdui-card-media">
                         <img alt="picture" src="image/news/1589277664500077340.jpg">
                         <div class="mdui-card-primary extra_no_padding">
@@ -70,7 +81,7 @@
                     </div>
                 </div>
                 <div class="divider_trans_16"></div>
-                <div class="mdui-card mdui-hoverable today_news_card no_text_select">
+                <div class="mdui-card mdui-hoverable today_news_card no_text_select card_no_shadow">
                     <div class="mdui-card-media">
                         <img alt="picture" src="image/news/1571395901109063616.jpg">
                         <div class="mdui-card-primary extra_no_padding">
@@ -83,8 +94,51 @@
     </div>
 
     <div class="mdui-row">
-        <div class="mdui-col-md-8 mdui-col-xs-12 extra_padding_4 extra_margin_top_8">
-            <div class="font-24px-center gray-background no_text_select hover_text_highlight">今日热点</div>
+        <div class="mdui-col-md-6 mdui-col-xs-12 extra_padding_4 extra_margin_top_8">
+            <div id="title_hot_news" class="font-24px-center gray-background no_text_select hover_text_highlight">今日热点</div>
+            <div class="mdui-card mdui-hoverable today_news_card no_text_select card_no_shadow">
+                <div class="mdui-card-media">
+                    <img alt="picture" src="image/news/1589277664500077340.jpg">
+                    <div class="mdui-card-primary extra_no_padding">
+                        <div class="today_news_title">林建华向母校浙江工业大学捐赠2000万元</div>
+                    </div>
+                </div>
+                <div class="mdui-card-media">
+                    <img alt="picture" src="image/news/1589277664500077340.jpg">
+                    <div class="mdui-card-primary extra_no_padding">
+                        <div class="today_news_title">林建华向母校浙江工业大学捐赠2000万元</div>
+                    </div>
+                </div>
+                <div class="mdui-card-media">
+                    <img alt="picture" src="image/news/1589277664500077340.jpg">
+                    <div class="mdui-card-primary extra_no_padding">
+                        <div class="today_news_title">林建华向母校浙江工业大学捐赠2000万元</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mdui-col-md-6 mdui-col-xs-12 extra_padding_4 extra_margin_top_8">
+            <div id="title_study_info" class="font-24px-center gray-background no_text_select hover_text_highlight">学术动态</div>
+            <div class="mdui-card mdui-hoverable today_news_card no_text_select card_no_shadow">
+                <div class="mdui-card-media">
+                    <img alt="picture" src="image/news/1589277664500077340.jpg">
+                    <div class="mdui-card-primary extra_no_padding">
+                        <div class="today_news_title">林建华向母校浙江工业大学捐赠2000万元</div>
+                    </div>
+                </div>
+                <div class="mdui-card-media">
+                    <img alt="picture" src="image/news/1589277664500077340.jpg">
+                    <div class="mdui-card-primary extra_no_padding">
+                        <div class="today_news_title">林建华向母校浙江工业大学捐赠2000万元</div>
+                    </div>
+                </div>
+                <div class="mdui-card-media">
+                    <img alt="picture" src="image/news/1589277664500077340.jpg">
+                    <div class="mdui-card-primary extra_no_padding">
+                        <div class="today_news_title">林建华向母校浙江工业大学捐赠2000万元</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
