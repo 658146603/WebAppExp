@@ -346,3 +346,45 @@ footer div div {
     border-bottom: 1px #535353 solid;
     border-right: 1px #535353 solid;
 }
+
+.study_info_item {
+    padding: 16px 24px 16px 0;
+}
+
+.study_info_item:hover .title {
+    color: #f06292; !important;
+    font-size: 16px; !important;
+}
+
+.study_info_item .title {
+    color: #555555; !important;
+    font-size: 16px; !important;
+}
+
+.study_info_item .info {
+    line-height: 24px; !important;
+    color: #909090; !important;
+    font-size: 12px; !important;
+}
+
+.divider_a0a0a0_1 {
+    height: 1px;
+    width: 100%;
+    display: block;
+    background-color: #a0a0a0;
+}
+
+.study_info_first .title {
+    font-size: 18px; !important;
+    line-height: 24px; !important;
+    text-align: center; !important;
+    padding: 16px;
+}
+
+.study_info_first:hover .title {
+    font-size: 18px; !important;
+    line-height: 24px; !important;
+    text-align: center; !important;
+    padding: 16px;
+    color: #f06292;
+}
