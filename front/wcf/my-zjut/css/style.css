@@ -239,6 +239,10 @@ footer div div {
     margin: 8px; !important;
 }
 
+.extra_margin_4 {
+    margin: 4px; !important;
+}
+
 .news_tab a {
     min-width: auto; !important;
 }
@@ -261,6 +265,10 @@ footer div div {
 
 .divider_trans_16 {
     height: 16px;
+}
+
+.divider_trans_8 {
+    height: 8px;
 }
 
 .extra_margin_top_8 {
@@ -348,7 +356,7 @@ footer div div {
 }
 
 .study_info_item {
-    padding: 16px 24px 16px 0;
+    padding: 16px 24px 16px 8px;
 }
 
 .study_info_item:hover .title {
