@@ -133,6 +133,13 @@ footer div div {
     font-family: '华文宋体', '宋体', serif;
 }
 
+.news_content_title {
+    width: auto;
+    margin: 18px 0;
+    font-size: 28px;
+    font-family: 'MonacoYahei', serif;
+}
+
 .gray-background {
     background-color: #f1f1f1;
 }
@@ -240,6 +247,10 @@ footer div div {
 
 .extra_padding_8 {
     padding: 8px; !important;
+}
+
+.extra_padding_16 {
+    padding: 16px; !important;
 }
 
 .extra_margin_16 {
@@ -359,7 +370,7 @@ footer div div {
 }
 
 .border_no_left_535353 {
-    padding: 8px 8px 8px 0;
+    padding: 28px 8px 28px 0;
     margin: 36px 8px 36px 0;
     border-top: 1px #535353 solid;
     border-bottom: 1px #535353 solid;
@@ -406,4 +417,35 @@ footer div div {
     text-align: center; !important;
     padding: 16px;
     color: #f06292;
+}
+
+.news_content_info {
+    line-height: 32px; !important;
+    color: #909090; !important;
+    font-size: 16px; !important;
+}
+
+.news_content_text {
+    font-size: 16px;
+    line-height: 32px;
+    color: #3e2723;
+    margin: 16px 0;
+}
+
+.news_content_image {
+    display: block;
+    margin: 16px auto;
+}
+
+.news_content_image_label {
+    display: block;
+    line-height: 14px;
+    font-size: 12px;
+    height: 14px;
+    color: #aaaaaa;
+    text-align: center;
+}
+
+.article_content {
+    padding: 8px 16px 8px 16px;
 }
