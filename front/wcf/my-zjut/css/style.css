@@ -70,7 +70,6 @@ footer div div {
     right: 0;
     top: 50%;
     border: 1px #4c4c4c;
-    /*background-color: rgba(255, 255, 255, 0.2);*/
     transform: translate(0%, -50%);
     -webkit-user-select: none;
     -moz-user-select: none;
